@@ -1,0 +1,9 @@
+{
+  "name": "Just A Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "My first webpack application!",
+  "background_color": "#ffffff"
+}
