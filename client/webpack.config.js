@@ -25,8 +25,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         name: 'Just A Text Editor',
         short_name: 'JATE',
-        description: 'My first webpack application!',
+        description: 'A simple text editor using PWA!',
         background_color: '#ffffff',
+        start_url: './',
+        publicPath: './',
         crossorigin: null,
       }),
       new InjectManifest({
