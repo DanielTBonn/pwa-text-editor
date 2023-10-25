@@ -3,7 +3,7 @@
   "short_name": "JATE",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": ".",
-  "description": "My first webpack application!",
+  "start_url": "./",
+  "description": "A simple text editor using PWA!",
   "background_color": "#ffffff"
 }
