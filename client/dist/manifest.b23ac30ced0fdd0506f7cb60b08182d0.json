@@ -1,9 +1,0 @@
-{
-  "name": "Just A Text Editor",
-  "short_name": "JATE",
-  "orientation": "portrait",
-  "display": "standalone",
-  "start_url": "./",
-  "description": "A simple text editor using PWA!",
-  "background_color": "#ffffff"
-}
