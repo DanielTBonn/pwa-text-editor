@@ -32,7 +32,6 @@ module.exports = () => {
         display: "standalone",
         start_url: './',
         publicPath: './',
-        crossorigin: null,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
