@@ -8,6 +8,7 @@ There are various means of optimizing content distribution delivered to the clie
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [Tests](#tests)
+- [Links](#links)
 - [Questions](#questions)
 
 ## Installation
@@ -18,6 +19,8 @@ Clone this repository and run npm i at the command line.
   
 Run npm run start and navigate to the web application. The most recent notes taken will be automatically saved whenever you click outside of the web application window. If you wish to use this web app offline then click the install button.
 
+![picture-of-jate](./assets/images/jate.png)
+
 ## Contribute
   
 No contributions necessary, but any input on how to improve my code is appreciated.
@@ -25,6 +28,8 @@ No contributions necessary, but any input on how to improve my code is appreciat
 ## Tests
   
 No tests written at this time.
+
+## Links
 
 ## Questions
 
