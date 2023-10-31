@@ -32,7 +32,9 @@ registerRoute(({request}) => {
       // CSS
       request.destination === 'style' ||
       // JS
-      request.destination === 'script'
+      request.destination === 'script' ||
+      // Images
+      request.destination ==='image'
     );
   },
   pageCache
