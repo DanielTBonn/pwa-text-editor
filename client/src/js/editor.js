@@ -24,13 +24,17 @@ export default class {
       tabSize: 2,
     });
 
-    console.log("Something is happening here\n\n")
     // When the editor is ready, set the value to whatever is stored in indexeddb.
     // Fall back to localStorage if nothing is stored in indexeddb, and if neither is available, set the value to header.
     getDb().then((data) => {
       console.log("This is data", data)
       console.info(`Loaded data from IndexedDB, injecting into editor`);
-      this.editor.setValue(data || localData || header);
+      console.log()
+      this.editor.setValue(data[0].value || localData || header);
+    })
+    .catch((error) => {
+      console.log("There was an error")
+      console.log(error)
     });
 
     console.log("After injector this should pop up")
