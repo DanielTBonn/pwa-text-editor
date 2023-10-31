@@ -23,26 +23,26 @@ module.exports = () => {
         template: './index.html',
         title: 'Text Editor'
       }),
-      new WebpackPwaManifest({
-        name: 'Just A Text Editor',
-        short_name: 'JATE',
-        description: 'A simple text editor using PWA!',
-        background_color: '#ffffff',
-        orientation: "portrait",
-        display: "standalone",
-        start_url: './',
-        publicPath: './',
-        icons: [
-          {
-            src: path.resolve('src/images/logo.png'),
-            size: [96, 128, 192, 256, 384, 512],
-            destination: path.join('assets', 'icons')
-          },
-        ]
-      }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-      }),
+      // new WebpackPwaManifest({
+      //   name: 'Just A Text Editor',
+      //   short_name: 'JATE',
+      //   description: 'A simple text editor using PWA!',
+      //   background_color: '#ffffff',
+      //   orientation: "portrait",
+      //   display: "standalone",
+      //   start_url: './',
+      //   publicPath: './',
+      //   icons: [
+      //     {
+      //       src: path.resolve('src/images/logo.png'),
+      //       size: [96, 128, 192, 256, 384, 512],
+      //       destination: path.join('assets', 'icons')
+      //     },
+      //   ]
+      // }),
+      // new InjectManifest({
+      //   swSrc: './src-sw.js',
+      // }),
     ],
 
     module: {
